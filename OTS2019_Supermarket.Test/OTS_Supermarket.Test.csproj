@@ -62,6 +62,7 @@
     <Compile Include="CartTestData.cs" />
     <Compile Include="CartCsvData.cs" />
     <Compile Include="CartTxtParser.cs" />
+    <Content Include="PICTFactors.txt" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

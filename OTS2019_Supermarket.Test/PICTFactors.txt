@@ -1,0 +1,19 @@
+﻿VKE: [1, 7]
+Days: 1, 2, 6, 7
+
+VKE: [0, 10]
+Size: 0, 1, 9, 10
+
+VKE: [1, +]
+Amount: 1, 2, 1600
+
+VKE: [0, +]
+Laptop: 0, 1, 10
+Monitor: 0, 1, 10
+Chair: 0, 1, 10
+Computer: 0, 1, 10
+Keyboard: 0, 1, 10
+
+Discount: 0, 0.1, 0.08, 0.05, 0.2, 0.18, 0.15
+
+if [Days] <= 3 AND [IsNotWeekend] = "true" AND [Size] > 8 AND [Amount] > 1500 AND ([Computer] >= 3 OR [Laptop] >= 3) AND [Monitor] >= 3 THEN [Discount] = 0.1;
